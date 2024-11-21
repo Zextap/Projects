@@ -2,19 +2,15 @@
     box-sizing: border-box;
 }
 
-div {
-display: grid;
-    border: 1px solid;
-    grid-template-columns: 100px 50px 100px;
-    grid-template-rows: 100px auto 100px;
-    column-gap: 10px;
-    row-gap: 15px;
-    justify-items: end;
-    justify-content: center;
-}
-
-span{
-    width: 50px;
-    height: 50px;
-    background-color: black;
-}
+.container {
+    display: grid; /* Define el contenedor como grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    grid-gap: 20px; /* Espacio entre las columnas y filas */
+  }
+  
+  .item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
+  
