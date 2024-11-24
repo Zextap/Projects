@@ -1,1 +1,1 @@
-<h1>Web pages to practic</h1>
+<h1>Web pages to practice</h1>
